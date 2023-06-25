@@ -7,7 +7,7 @@
     --clr-main-text:#141414;
     --font-size-sm: 16px;
 }
-/* css reset */
+/* css reset_ */
 *{
     padding: 0;
     margin: 0;
@@ -216,7 +216,7 @@ line-height: 32px;
 margin-bottom: 16px;
 }
 main .frame--two h4{
-    color: var(--text-color-main-text, #141414);
+    color: var(--clr-main-text);
 font-size: 32px;
 font-family: "Gilroy-Bold";
 line-height: 28px;
@@ -314,7 +314,7 @@ main .pricing .pricing--wrapper .basic--container, main .pricing .pricing--wrapp
     margin: auto;
 }
 main .pricing .pricing--wrapper .basic--container{
-    margin-right:-10px;
+    margin-right:-20px;
 }
 main .pricing .pricing--wrapper .teams--container{
     margin-left:-10px;
@@ -364,7 +364,7 @@ font-family: "Gilroy-Bold";
 line-height: 48px;
 }
 main .pricing ul{
-    color: var(--text-color-main-text, #141414);
+    color: var(--clr-main-text);
 text-align: left;
 font-size: 14px;
 font-family: "Gilroy-Medium" sans-serif;
@@ -380,7 +380,7 @@ main .pricing ul li{
     gap: 0.5rem;
 }
 main .pricing p{
-    color: var(--text-color-main-text, #141414);
+    color: var(--clr-main-text, #141414);
 text-align: left;
 font-size: 18.5px;
 font-family: "Gilroy-Medium";
@@ -458,7 +458,7 @@ main .faq .faq--item--list > li{
     border-bottom: 1px solid #D6D6D6;
     padding-bottom: 1rem;
     padding-top: 1rem;
-    color: var(--text-color-main-text, #141414);
+    color: var(--clr-main-text);
 font-size: 1.125rem;
 font-family: "Gilroy-Medium";
 line-height: 2rem;
@@ -549,13 +549,13 @@ footer .social--icon img{
 }
 footer .footer--nav--wrapper ul li{
     list-style: none;
-    color: var(--neutral-800, #112232);
+    color:#112232;
 font-size: 16px;
 font-family: "Gilroy-Medium";
 line-height: 24px;
 }
 footer .footer--nav--wrapper p{
-    color: var(--neutral-900, #071827);
+    color: #071827;
 font-size: 16px;
 font-family: "Gilroy-Bold";
 line-height: 24px;
